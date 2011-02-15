@@ -12,13 +12,12 @@ WriteMakefile(
         'Test::More' => 0,
         'Class::Accessor' => 0,
 	
-	'DateTime' => 0,
-	'DateTime::Format::ISO8601' => 0,
-	'DateTime::Format::Mail' => 0,
+        'DateTime' => 0,
+        'DateTime::Format::ISO8601' => 0,
+        'DateTime::Format::Mail' => 0,
 
-	'XML::Atom::Syndication' => 0,
-	'XML::RSS' => 0,
-
+        'XML::Atom::Syndication' => 0,
+        'XML::RSS' => 0,
 
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },

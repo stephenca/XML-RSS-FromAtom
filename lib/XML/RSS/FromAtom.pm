@@ -33,7 +33,7 @@ use DateTime;
 use DateTime::Format::ISO8601;
 use DateTime::Format::Mail;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub parse {
     my $self = shift;
@@ -56,23 +56,32 @@ sub atom_to_rss {
     my ($feed_title) = $doc->query('/feed/title');
     $retval->channel(title => $feed_title->text_value) if ($feed_title);
 
+    my ($feed_description) = $doc->query('/feed/tagline');
+    $retval->channel(description => $feed_description->text_value) if ($feed_description);
+
+    my ($feed_link) = $doc->query('/feed/link/@href');
+    $retval->channel(link => $feed_link) if ($feed_link);
+
     foreach ($doc->query('//entry')) {
-	my $desc = '';
-	$desc = $_->query('summary')->text_value if defined $_->query('summary');
-	if (defined $_->query('content') && length $_->query('content')->text_value > length $desc) {
-	    $desc = $_->query('content')->text_value;
-	}
+        my $desc = '';
+        $desc = $_->query('summary')->text_value if defined $_->query('summary');
+        if (defined $_->query('content') && 
+            length $_->query('content')->text_value > length $desc) {
+            $desc = $_->query('content')->text_value;
+        }
 
-	my $dt = DateTime::Format::ISO8601->parse_datetime( $_->query('modified')->text_value );
+        my $dt = DateTime::Format::ISO8601->parse_datetime( $_->query('modified')->text_value );
 
-	my ($link) = $_->query('link/@href');
+        my ($link) = $_->query('link/@href');
+        my ($author) = $_->query('author/name');
 
-	$retval->add_item(
-		       title => $_->query('title')->text_value,
-		       link  => $link,
-		       description => $desc,
-		       pubDate => DateTime::Format::Mail->format_datetime($dt),
-		       );
+        $retval->add_item(
+                          title => $_->query('title')->text_value,
+                          link  => $link,
+                          description => $desc,
+                          pubDate => DateTime::Format::Mail->format_datetime($dt),
+                          author => $author ? $author->text_value : undef,
+                          );
     }
 
     return $retval;
