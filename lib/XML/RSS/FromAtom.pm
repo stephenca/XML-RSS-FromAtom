@@ -25,75 +25,105 @@
 
 package XML::RSS::FromAtom;
 
-use strict;
-use warnings;
+use common::sense;
 
-use base 'Class::Accessor';
 use DateTime;
 use DateTime::Format::ISO8601;
 use DateTime::Format::Mail;
 
-our $VERSION = '0.02';
+use Moo;
+
+use Try::Tiny;
+
+use XML::Atom::Syndication::Feed;
+use XML::RSS;
+
+# Version set by dist.ini; do not change here.
+# VERSION
+
+has 'syndicator' => ( 
+    is => 'ro',
+    lazy => 1,
+    builder => 'build_syndicator' );
+
+sub build_syndicator {
+    my $self = shift;
+    return XML::Atom::Syndication::Feed->new(\$self->content);
+}
+
+has 'rss_processor' => (
+    is => 'ro',
+    lazy => 1,
+    builder => 'build_rss_processor',
+    handles => [qw(add_item channel)] );
+
+sub build_rss_processor {
+    return XML::RSS->new(version => '2.0');
+}
+
+has 'content' => (
+    is => 'rw'
+);
 
 sub parse {
     my $self = shift;
     my $text = shift;
-    
-    require XML::Atom::Syndication;
 
-    my $atomic = XML::Atom::Syndication->instance;
-
-    return $self->atom_to_rss($atomic->parse($text));
+    $self->content( $text );
+    return $self->atom_to_rss();
 }
 
 sub atom_to_rss {
     my $self = shift;
-    my $doc = shift;
+    my $doc = $self->syndicator();
 
-    require XML::RSS;
-    my $retval = new XML::RSS(version => '2.0');
+    my $feed_title       = $doc->title->body();
+    my $feed_description = $doc->subtitle->body();
+    my $feed_link        = $doc->link->href();
 
-    my ($feed_title) = $doc->query('/feed/title');
-    $retval->channel(title => $feed_title->text_value) if ($feed_title);
+    $self->channel(title => $feed_title) if ($feed_title);
+    $self->channel(description => $feed_description) if ($feed_description);
+    $self->channel(link => $feed_link) if ($feed_link);
 
-    my ($feed_description) = $doc->query('/feed/tagline');
-    $retval->channel(description => $feed_description->text_value) if ($feed_description);
-
-    my ($feed_link) = $doc->query('/feed/link/@href');
-    $retval->channel(link => $feed_link) if ($feed_link);
-
-    foreach ($doc->query('//entry')) {
+    my @entries = $doc->entries();
+    for my $e (@entries) {
         my $desc = '';
-        $desc = $_->query('summary')->text_value if defined $_->query('summary');
-        if (defined $_->query('content') && 
-            length $_->query('content')->text_value > length $desc) {
-            $desc = $_->query('content')->text_value;
+        $desc = $e->summary->body();
+        my $content = 
+            try { $e->content->body() }
+            catch { undef };
+        if (defined($content)  && 
+            length($content) > length($desc)) {
+            $desc = $$content;
         }
 
-        my $dt = DateTime::Format::ISO8601->parse_datetime( $_->query('modified')->text_value );
+        my $title = $e->title->body();
 
-        my ($link) = $_->query('link/@href');
-        my ($author) = $_->query('author/name');
+        my $mod = $e->modified();
+        my $upd = $e->updated();
+        my $ts = defined($mod) ? $mod : $upd;
+        my $dt = DateTime::Format::ISO8601->parse_datetime( $ts );
 
-        $retval->add_item(
-                          title => $_->query('title')->text_value,
+        my $link = $e->link->href();
+        my $author = $e->author->name();
+
+        $self->add_item(
+                          title => $title,
                           link  => $link,
                           description => $desc,
                           pubDate => DateTime::Format::Mail->format_datetime($dt),
-                          author => $author ? $author->text_value : undef,
+                          author => $author ? $author : undef,
                           );
     }
 
-    return $retval;
+    return $self->rss_processor;
 }
+
+# ABSTRACT: create a XML::RSS object out of an Atom feed
 
 1;
 
 =pod
-
-=head1 NAME
-
-XML::RSS::FromAtom - create a XML::RSS object out of an Atom feed
 
 =head1 SYNOPSIS
 
@@ -119,6 +149,28 @@ XML::RSS::FromAtom - create a XML::RSS object out of an Atom feed
 
 XML::RSS::FromAtom converts a Atom style feed into an XML::RSS object.
 
+=head1 ATTRIBUTES
+
+=over
+
+=item syndicator
+
+An instance of a class that will parse the chosen Atom feed.  By default,
+this is L<XML::Atom::Syndication>, but it can be any class that exposes an
+equivalent interface.
+
+=item rss_processor
+
+An instance of a class that will hold the converted Atom feed as RSS.  By
+default, this will be L<XML::RSS>.
+
+=item content
+
+The Atom feed represented as a string.  This will normally be populated by a
+call to the parse() method.
+
+=back
+
 =head1 METHODS
 
 =over
@@ -136,6 +188,14 @@ it as an XML::RSS object.
 
 Converts an XML::Atom::Syndication::Element as returned by XML::Atom::Syndication get into
 an XML::RSS object.
+
+=item build_rss_processor ()
+
+Provides a default implementation for the rss_processor attribute.
+
+=item build_syndicator ()
+
+Provides a default implementation for the syndicator attribute.
 
 =back
 

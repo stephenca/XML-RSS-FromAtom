@@ -1,5 +1,9 @@
 Revision history for XML-RSS-FromAtom
 
-0.01    Date/time
+v0.02_01
+  - Revised to accommodate changes to XML::Atom::Syndication post v0.9. (Stephen
+    Cardie)
+
+v0.01    Date/time
         First version, released on an unsuspecting world.
 
