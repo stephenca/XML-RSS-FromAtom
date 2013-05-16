@@ -30,6 +30,24 @@ version 0.02\_01
 
 XML::RSS::FromAtom converts a Atom style feed into an XML::RSS object.
 
+# ATTRIBUTES
+
+- syndicator
+
+An instance of a class that will parse the chosen Atom feed.  By default,
+this is [XML::Atom::Syndication](http://search.cpan.org/perldoc?XML::Atom::Syndication), but it can be any class that exposes an
+equivalent interface.
+
+- rss\_processor
+
+An instance of a class that will hold the converted Atom feed as RSS.  By
+default, this will be [XML::RSS](http://search.cpan.org/perldoc?XML::RSS).
+
+- content
+
+The Atom feed represented as a string.  This will normally be populated by a
+call to the parse() method.
+
 # METHODS
 
 - new( )
@@ -45,6 +63,14 @@ it as an XML::RSS object.
 
 Converts an XML::Atom::Syndication::Element as returned by XML::Atom::Syndication get into
 an XML::RSS object.
+
+- build\_rss\_processor ()
+
+Provides a default implementation for the rss\_processor attribute.
+
+- build\_syndicator ()
+
+Provides a default implementation for the syndicator attribute.
 
 # AUTHOR
 
