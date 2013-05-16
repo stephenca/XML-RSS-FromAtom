@@ -1,0 +1,17 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+lib/XML/RSS/FromAtom.pm
+t/00-compile.t
+t/headlines.atom
+t/lib/xml/rss/fromatom.t
+t/perlcriticrc
+xt/author/critic.t
+xt/release/distmeta.t
+xt/release/pod-coverage.t
+xt/release/pod-syntax.t
+xt/release/test-version.t

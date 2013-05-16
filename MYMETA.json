@@ -1,0 +1,72 @@
+{
+   "abstract" : "create a XML::RSS object out of an Atom feed",
+   "author" : [
+      "Stephen Cardie <stephenca@ls26.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300023, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "XML-RSS-FromAtom",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "examples",
+         "corpus"
+      ],
+      "package" : [
+         "DB"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Data::Dumper" : "0",
+            "File::Find" : "0",
+            "File::Slurp" : "0",
+            "File::Spec" : "0",
+            "File::Temp" : "0",
+            "Test::More" : "0",
+            "Test::Most" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DateTime" : "0",
+            "DateTime::Format::ISO8601" : "0",
+            "DateTime::Format::Mail" : "0",
+            "Moo" : "0",
+            "Try::Tiny" : "0",
+            "XML::Atom::Syndication::Feed" : "0",
+            "XML::RSS" : "0",
+            "common::sense" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "XML::RSS::FromAtom" : {
+         "file" : "lib/XML/RSS/FromAtom.pm",
+         "version" : "0.02_01"
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=XML-RSS-FromAtom"
+      }
+   },
+   "version" : "0.02_01"
+}

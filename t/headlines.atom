@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>tag:theregister.co.uk,2005:feed/theregister.co.uk/data_centre/servers/</id>
+  <title>The Register - Data Centre: Servers</title>
+  <link rel="self" type="application/atom+xml" href="http://www.theregister.co.uk/data_centre/servers/headlines.atom"/>
+  <link rel="alternate" type="text/html" href="http://www.theregister.co.uk/data_centre/servers/"/>
+  <rights>Copyright © 2013, Situation Publishing</rights>
+  <author>
+    <name>Team Register</name>
+    <email>webmaster@theregister.co.uk</email>
+    <uri>http://www.theregister.co.uk/odds/about/contact/</uri>
+  </author>
+  <icon>http://www.theregister.co.uk/Design/graphics/icons/favicon.png</icon>
+  <subtitle>Biting the hand that feeds IT — sci/tech news and views for the world</subtitle>
+  <logo>http://www.theregister.co.uk/Design/graphics/Reg_default/The_Register_r.png</logo>
+  <updated>2013-05-15T10:58:52Z</updated>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/15/amd_roadrunner_opteron_ocp_systems/</id>
+    <updated>2013-05-15T00:45:58Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/15/amd_roadrunner_opteron_ocp_systems/"/>
+    <title type="html">Financial firms start lining up for AMD Roadrunner systems</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Open Compute makers could do for Opterons what tier ones didn't&lt;/h4&gt; &lt;p&gt;For more than a few large-scale data center operators and supercomputer centers in the world, AMD's Opteron processors are still an important part of their infrastructure. But over the past few years, as Intel has got its Xeon act together and AMD has had some issues (to put it politely) the tier-one server makers have not exactly given Opteron a lot of love. Yet it may not matter all that much, now that the companies who are official suppliers of Open Compute iron can start peddling systems based on the "Roadrunner" Opteron motherboard.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/14/ibm_power_linux_china_center/</id>
+    <updated>2013-05-14T23:03:39Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/14/ibm_power_linux_china_center/"/>
+    <title type="html">IBM to push Linux apps on Power iron in China, then elsewhere</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;If you want to peddle boxes, you have to sell the ISVs first&lt;/h4&gt; &lt;p&gt;IBM is opening a Power Systems Linux Center in Beijing, China, in the hopes of getting more local ISVs interested in its Power Systems iron and luring them away from x86-based systems. With the Power Systems business taking it on the chin in IBM's first quarter – revenues fell 32 per cent compared to a year ago – you can bet that Big Blue is trying to light a fire under its Linux-on-Power efforts.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/14/intel_centerton_review/</id>
+    <updated>2013-05-14T10:24:17Z</updated>
+    <author>
+      <name>Trevor Pott</name>
+      <uri>http://search.theregister.co.uk/?author=Trevor%20Pott</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/14/intel_centerton_review/"/>
+    <title type="html">Intel Centerton server-class Atoms: How low can you go?</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Reduced-power virtualisation - take that, ARM&lt;/h4&gt; &lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;  In late 2012 Intel &lt;a href="http://www.theregister.co.uk/2012/12/11/intel_centerton_atom_server_chip/"&gt;launched&lt;/a&gt; Centerton: the first in its new line of Atom-based server processors. Hoping to cut ARM's invasion of the data centre off at the pass, these low-power CPUs are targeted at an emerging &lt;a href="http://www.theregister.co.uk/2012/04/04/ubuntu_maas/"&gt;"Metal as a Service"&lt;/a&gt; movement that sees a return of unique workloads to individual processors.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/13/dell_hana_appliance_sap_business_suite/</id>
+    <updated>2013-05-13T23:05:42Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/13/dell_hana_appliance_sap_business_suite/"/>
+    <title type="html">Dell gooses HANA appliances, loads up SAP Business Suite</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Looks ahead to those Ivy Bridge-EX machines later this year&lt;/h4&gt; &lt;p&gt;Enterprise application software powerhouse SAP is beside itself with glee that its HANA in-memory database is driving more business than expected, and server makers like Dell, which are building appliances that meet the very strict – and unmalleable – configurations prescribed to run HANA, are hoping that this turns into a moneymaker for their systems, storage, and switching units.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/13/integrated_stacks_avoiding_vendor_lock_in/</id>
+    <updated>2013-05-13T10:15:04Z</updated>
+    <author>
+      <name>Team Register</name>
+      <uri>http://search.theregister.co.uk/?author=Team%20Register</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/13/integrated_stacks_avoiding_vendor_lock_in/"/>
+    <title type="html">Integration gets back on track with the vertical stack</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;We don't need no vendor lock-in&lt;/h4&gt; &lt;p&gt;What is the role of integrated stacks, in which compute, networking, storage and management are vertically integrated? And how do you avoid vendor lock-in?…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/13/japan_wants_exascale_super/</id>
+    <updated>2013-05-13T04:29:25Z</updated>
+    <author>
+      <name>Richard Chirgwin</name>
+      <uri>http://search.theregister.co.uk/?author=Richard%20Chirgwin</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/13/japan_wants_exascale_super/"/>
+    <title type="html">Japan begins planning exascale super</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Seeking funds for design project&lt;/h4&gt; &lt;p&gt;Japan is plotting its return to global supercomputing dominance, with its science ministry seekings funds to design the successor to its K supercomputer, to be completed by 2020.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/12/scalemp_memory_expansion_ibm_sgi/</id>
+    <updated>2013-05-12T23:32:39Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/12/scalemp_memory_expansion_ibm_sgi/"/>
+    <title type="html">ScaleMP: Use RAM plus vSMP, not flash, to boost server performance</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Partners with Big Blue, chases SGI UV2 shared memory systems&lt;/h4&gt; &lt;p&gt;There are hypervisors that chop a single server into virtual bits, and other hypervisors that take multiple servers and make them look like one big virtual one. ScaleMP's vSMP hypervisor is the latter kind, and can be used to create a shared memory x86-based system that runs Linux that would normally require special processors and chipsets. And a much higher price tag.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/10/penguin_computing_open_compute_servers/</id>
+    <updated>2013-05-10T20:24:02Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/10/penguin_computing_open_compute_servers/"/>
+    <title type="html">Penguin Computing to make Open Compute servers</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;And apparently a lot more money, thanks to Zuck &amp;amp; Co.&lt;/h4&gt; &lt;p&gt;Linux server and cluster maker Penguin Computing is a member of the Open Compute Project started by Facebook to create open source data center gear, and now it is an official "solution provider".…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/10/fujitsu_integrated_systems_fabric_switches/</id>
+    <updated>2013-05-10T16:56:17Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/10/fujitsu_integrated_systems_fabric_switches/"/>
+    <title type="html">Fujitsu Integrated Systems stack up servers, storage, and switches</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Anything Larry Ellison can do, we can do differently&lt;/h4&gt; &lt;p&gt;Japanese IT giant Fujitsu will roll out a bounty of new – and, of course, cloudy – hardware and software offerings next week at its annual customer and partner confab in Tokyo.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/09/nutanix_server_storage_hybrid_traction/</id>
+    <updated>2013-05-09T21:34:18Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/09/nutanix_server_storage_hybrid_traction/"/>
+    <title type="html">Nutanix getting traction with server-storage hybrids</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;The Global 2000 comes a-knockin' – and maybe an IT giant with gobs o' cash&lt;/h4&gt; &lt;p&gt;The road to the present is littered with the rusty hulks of server companies that had great engineering and a new twist on an old systems idea, and yet were crushed by incumbents. But judging by its numbers for the past year and a half, upstart Nutanix – which is peddling a virtualized server cluster with a virtualized SAN spread across flash and disk drives – is making some headway.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/05/01/ibm_lenovo_x86_server_deal_skids/</id>
+    <updated>2013-05-01T22:43:25Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/05/01/ibm_lenovo_x86_server_deal_skids/"/>
+    <title type="html">Report: IBM, Lenovo x86 server deal hits the skids</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Or, maybe the Great Wall of China&lt;/h4&gt; &lt;p&gt;Only late last week, &lt;a target="new" href="http://www.theregister.co.uk/2013/04/26/ibm_lenovo_deal_picks_up_steam/"&gt;the scuttlebutt&lt;/a&gt; was that IBM and Lenovo Group were moving along at a rapid pace so Big Blue could offload all or part of its System x x86 server business to the Chinese builder. Now, the latest word is that the deal has stalled as the two companies are haggling about the price.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/26/ibm_lenovo_deal_picks_up_steam/</id>
+    <updated>2013-04-26T18:45:31Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/26/ibm_lenovo_deal_picks_up_steam/"/>
+    <title type="html">Lenovo deal to buy IBM x86 server biz moving along fast</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Time for Ginni to make a call to GloFo or TSMC for fab spinout&lt;/h4&gt; &lt;p&gt;It is becoming increasingly clear that IBM CEO Ginni Rometty is annoyed with the performance of the company's systems business. Annoyed enough to spin off all or part of its System x server business to China's Lenovo Group, according to rumors &lt;a target="new" href="http://www.theregister.co.uk/2013/04/19/ibm_selling_system_x_servers_to_lenovo/"&gt;that surfaced last week&lt;/a&gt;.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/24/data_centre_appliances/</id>
+    <updated>2013-04-24T12:44:29Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/24/data_centre_appliances/"/>
+    <title type="html">Appliances are the new data centre onesie</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;It's all coming together&lt;/h4&gt; &lt;p&gt;It has been a fun and very profitable couple of decades for upstart IT server and systems software makers.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/22/dont_buy_without_ipmi/</id>
+    <updated>2013-04-22T06:31:12Z</updated>
+    <author>
+      <name>Trevor Pott</name>
+      <uri>http://search.theregister.co.uk/?author=Trevor%20Pott</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/22/dont_buy_without_ipmi/"/>
+    <title type="html">Are you being robbed of sleep by badly designed servers?</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Mornings, nights, they all blur into one for our man Trevor&lt;/h4&gt; &lt;p&gt;&lt;strong&gt;Sysadmin Blog&lt;/strong&gt;  How should we design the servers and end-user computers of the future?…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/19/ibm_selling_system_x_servers_to_lenovo/</id>
+    <updated>2013-04-19T01:04:49Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/19/ibm_selling_system_x_servers_to_lenovo/"/>
+    <title type="html">IBM selling x86 server business to Lenovo?</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Talks ongoing, likely only System x racks and towers, not FlexSystems&lt;/h4&gt; &lt;p&gt;There are rumors swirling around, again, that IBM is looking to sell off all or a portion of its x86 server business to Chinese PC maker and server partner Lenovo Group.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/18/ibm_q1_2013_numbers/</id>
+    <updated>2013-04-18T23:32:46Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/18/ibm_q1_2013_numbers/"/>
+    <title type="html">Big Blue misses Q1 targets big-time thanks to systems shortfall</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;$1.4bn in charges for "workload rebalancing" – aka layoffs – coming in Q2&lt;/h4&gt; &lt;p&gt;Big Blue did not turn in the numbers that it expected in the first quarter thanks to more than $400m in mainframe systems, related software, and intellectual property licensing deals that rolled over into the second quarter. In the quarter ended in March, revenues were off 5.1 per cent, to $23.41bn, and net income fell by 1.1 per cent to $3.03bn.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/17/intel_q1_2013_server_drilldown/</id>
+    <updated>2013-04-17T20:29:21Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/17/intel_q1_2013_server_drilldown/"/>
+    <title type="html">Data centers can't save Intel's first quarter</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;But they might save 2013 if Atom and Xeon chips take off&lt;/h4&gt; &lt;p&gt;The "Sandy Bridge" Xeon E5 replacement ramp for servers is nearly a year old now and clearly hit its stride &lt;a href="http://www.theregister.co.uk/2013/04/17/intel_quarterly_figures_goodbye_otellini/"&gt;in the first quarter&lt;/a&gt; for Intel, which turned in some pretty sad figures for its PC chip and chipset business. It is a pity that the Data Center and Connected Systems business was not already twice as large, as Intel hopes to make it by 2016, because if it was then Chipzilla might have had a much better quarter.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/10/oracle_resells_fujitsu_athen_sparc_m10_servers/</id>
+    <updated>2013-04-10T19:04:37Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/10/oracle_resells_fujitsu_athen_sparc_m10_servers/"/>
+    <title type="html">Oracle to resell Fujitsu 'Athena' Sparc64-X servers ... worldwide</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;The more Sparcs, the merrier, apparently&lt;/h4&gt; &lt;p&gt;Solaris customers looking to upgrade their Sparc server iron will have a second set of choices now that Oracle has admitted that it will be reselling the Fujitsu "Athena" servers that use the Japanese company's Sparc64-X processor.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/10/intel_server_chip_preview_idf_beijing/</id>
+    <updated>2013-04-10T01:00:05Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/10/intel_server_chip_preview_idf_beijing/"/>
+    <title type="html">Intel hints at server processor plans for the rest of this year</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;New chippery all around, from tiny Atom to big bad Xeon E7&lt;/h4&gt; &lt;p&gt;The Intel Developer Forum is kicking off in Beijing, China on Wednesday morning, and knowing that everyone can't make it to the Middle Kingdom to talk tech, Chipzilla gave &lt;i&gt;El Reg&lt;/i&gt; a preview of what Diane Bryant, general manager of its Data Center and Connected Systems Group, would reveal during her keynote focusing on processors for systems, storage, and networking gear.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/09/landesk_buys_shavlik_from_vmware/</id>
+    <updated>2013-04-09T18:27:01Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/09/landesk_buys_shavlik_from_vmware/"/>
+    <title type="html">VMware sells off Shavlik patch management tools to LANDesk</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Forget hardware nannying, we're all about software-defined everything&lt;/h4&gt; &lt;p&gt;With new sheriff Pat Gelsinger now running the company for the past six months, VMware is getting more focused on its software-defined data center product line, extending up from basic server virtualization to the heavens, and is spinning off anything that is not directly supportive of its goals for virtualized data center and endpoint computing. Thus, the patch management software from Shavlik went on the block, and LANDesk, &lt;a href="http://www.theregister.co.uk/2002/09/05/intel_spins_out_landesk/"&gt;itself a spinout from Intel&lt;/a&gt;, snapped it up.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/09/hp_moonshot_server_analysis/</id>
+    <updated>2013-04-09T06:04:10Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/09/hp_moonshot_server_analysis/"/>
+    <title type="html">'Til heftier engines come aboard, HP Moonshot only about clouds</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;And those engines &lt;i&gt;will&lt;/i&gt; come – as will FPGAs, DSPs, GPUs ...&lt;/h4&gt; &lt;p&gt;&lt;strong&gt;Analysis&lt;/strong&gt;  The HP Moonshot hyperscale servers are not even fully launched, and Intel and Calxeda are already bickering about whose server node is going to be bigger and better when they both ship improved processors for the Moonshot chassis later this year. Other engines will be coming for the Moonshot machines, too, HP execs tell &lt;i&gt;El Reg&lt;/i&gt;, and they will be sorely needed if the Moonshot boxes are to do real work across a wider range of software.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/08/hp_moonshot_server_launch/</id>
+    <updated>2013-04-08T18:36:16Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/08/hp_moonshot_server_launch/"/>
+    <title type="html">HP's 'historic' Project Moonshot servers aim at hyperscale future</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;First Atom nodes, then ARM and others to 'change the server market'&lt;/h4&gt; &lt;p&gt;HP didn't invent the rack-server business, but Compaq – the company it acquired more than a decade ago – did. HP can't buy its way into the next system era, which is why it is trying to create that era itself with its second-generation Project Moonshot servers.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/03/arm_tsmc_tape_out_16_nanometer/</id>
+    <updated>2013-04-03T18:31:24Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/03/arm_tsmc_tape_out_16_nanometer/"/>
+    <title type="html">ARM, TSMC tape out 64-bit Cortex-A57 chip on 16 nanometers</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;We have big ol' fat gates, too, Chipzilla&lt;/h4&gt; &lt;p&gt;ARM looks set to take its high-end PC and sever chip down to 16 nanometers according to the latest tape-out, which should give it a boost against rival Chipzilla.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/04/02/hp_moonshot_server_launch_preview/</id>
+    <updated>2013-04-02T16:12:41Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/04/02/hp_moonshot_server_launch_preview/"/>
+    <title type="html">HP fuels second-gen Moonshot servers for April 8 launch</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Rocketing into the clouds and elite data centers with hyperscale iron&lt;/h4&gt; &lt;p&gt;The next-generation of HP's "Project Moonshot" super-dense servers for hyperscale data centers, code-named "Gemini", are being prepped for their long-awaited launch next Monday.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/26/oracle_ellison_m5_t5_launch/</id>
+    <updated>2013-03-26T23:10:22Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/26/oracle_ellison_m5_t5_launch/"/>
+    <title type="html">Ellison aims his first Oracle 'mainframe' at Big Blue</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;T5 takes the lead from Power and x86, Big Larry claims&lt;/h4&gt; &lt;p&gt;Larry Ellison has launched the first mainframe-class machine that he can correctly say he made sure came to market, and now he is going to take a run at IBM's mainframe and Unix server businesses.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/26/oracle_sparc_t5_m5_server/</id>
+    <updated>2013-03-26T20:00:04Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/26/oracle_sparc_t5_m5_server/"/>
+    <title type="html">Oracle's new T5 Sparcs boost scalability in chip and chassis</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Also aims brawny M4 – scratch that – M&lt;i&gt;5&lt;/i&gt; CPU at big-iron workloads&lt;/h4&gt; &lt;p&gt;Oracle is launching its much-awaited Sparc T5 processors for entry and midrange servers, along with Sparc M5 processors to effectively replace the iron it currently resells from server and chip partner Fujitsu.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/20/nvidia_visual_computing_appliance_grid/</id>
+    <updated>2013-03-20T19:58:02Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/20/nvidia_visual_computing_appliance_grid/"/>
+    <title type="html">Nvidia gets into the server biz with Visual Computing Appliance</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Tier one server makers embrace Grid for their own appliances&lt;/h4&gt; &lt;p&gt;&lt;strong&gt;GTC 2013&lt;/strong&gt;  If you want to virtualize workstations and run them on shared infrastructure, or build a giant renderfarm to make the next blockbuster movie or video game, then Nvidia has a server for you. It's called the Visual Computing Appliance, and as the name suggests, it is aimed at important workloads such as running &lt;i&gt;Crysis&lt;/i&gt;, at least when the bosses are not looking, and for running various kinds of GPU-intensive applications when they are.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/18/servers_pets_or_cattle_cern/</id>
+    <updated>2013-03-18T03:38:43Z</updated>
+    <author>
+      <name>Simon Sharwood</name>
+      <uri>http://search.theregister.co.uk/?author=Simon%20Sharwood</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/18/servers_pets_or_cattle_cern/"/>
+    <title type="html">Are your servers PETS or CATTLE?</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Cloudy metaphor separates the sheep from the goats&lt;/h4&gt; &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;  The word “cloud” has become horribly over-used. Your correspondent has even heard hosted PABXs referred to as “cloud telephony”.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/15/home_labs/</id>
+    <updated>2013-03-15T08:02:47Z</updated>
+    <author>
+      <name>Simon Sharwood</name>
+      <uri>http://search.theregister.co.uk/?author=Simon%20Sharwood</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/15/home_labs/"/>
+    <title type="html">&lt;i&gt;Reg&lt;/i&gt; readers reveal MIGHTY DOMESTIC DATA CENTRES</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Servers’n’sofas challenge reveals racks and stacks in the &lt;i&gt;oddest&lt;/i&gt; places&lt;/h4&gt; &lt;p&gt;A few weeks back VMware’s Mike Laverick &lt;a target="_blank" href="http://www.theregister.co.uk/2013/02/07/home_lab_career_saver/"&gt;told this hack&lt;/a&gt; about his home lab and how he used it to further his career. Plenty of you revealed your own home labs in response, so we launched the servers’n’sofas challenge to report on the very best domestic data centres.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/14/idc_q4_2012_emea_server_numbers/</id>
+    <updated>2013-03-14T16:03:54Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/14/idc_q4_2012_emea_server_numbers/"/>
+    <title type="html">EMEA server market struggles to find its footing</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Decline in Q4 not as bad as in Q3, at least&lt;/h4&gt; &lt;p&gt;The austerity in Europe over the past several years is taking its toll on the server makers of the world and the companies in the region that most assuredly would love to be spending lots of dough on new software projects and the iron to support it. But they're not – and it's not just Western Europe that's putting a drag on the overall market…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/12/dell_poweredge_canonical_ubuntu_support/</id>
+    <updated>2013-03-12T23:50:20Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/12/dell_poweredge_canonical_ubuntu_support/"/>
+    <title type="html">Dell, Canonical tag team on Ubuntu Server tune-up for PowerEdgies</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Expanding official support from cloudy boxes to general-purpose workhorses&lt;/h4&gt; &lt;p&gt;Enterprises don't want to just know that an operating system will run on a piece of iron, they want to know who they are entitled to yell at when it stops working properly. And that's why a new support agreement has been inked between Canonical, the commercial entity behind the Ubuntu Server distribution of Linux, and Dell, one of the largest server makers in the world.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/12/quanta_cloud_hyperscale_server_business/</id>
+    <updated>2013-03-12T21:59:55Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/12/quanta_cloud_hyperscale_server_business/"/>
+    <title type="html">Taiwanese giant Quanta sold one out of every seven servers last year</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;'Hyperscale serving came to us, and we own it'&lt;/h4&gt; &lt;p&gt;&lt;strong&gt;Exclusive&lt;/strong&gt;  Taiwanese server maker Quanta is sick of people misrepresenting or guessing about the size and might of its server business, and so it is setting the record straight. And as it turns out, Quanta has an absolutely huge and absurdly fast-growing server business that should make all of the server incumbents quake with trepidation and sharpen their envy knives.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/11/fujitsu_cx420_s1_windows_cluster/</id>
+    <updated>2013-03-11T21:34:20Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/11/fujitsu_cx420_s1_windows_cluster/"/>
+    <title type="html">Fujitsu makes Windows Server 2012 see double</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Double-stuffed and clustered Primergy racker aimed at SMBs&lt;/h4&gt; &lt;p&gt;Small and medium-sized businesses want high availability (HA) capability for their core applications, just like the largest enterprises do. But server clustering can be intimidating and expensive, so Fujitsu has rejiggered some of its Primergy hyperscale dense servers to support the clustering of Windows-based servers inside of a single chassis, and to take advantage of shiny new HA features of Microsoft's Windows Server 2012.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/08/fattwin_review/</id>
+    <updated>2013-03-08T07:03:11Z</updated>
+    <author>
+      <name>Trevor Pott</name>
+      <uri>http://search.theregister.co.uk/?author=Trevor%20Pott</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/08/fattwin_review/"/>
+    <title type="html">Review: Supermicro FatTwin</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Trevor likes his servers hot and dense&lt;/h4&gt; &lt;p&gt;My &lt;a href="http://www.theregister.co.uk/2013/01/22/building_it_test_lab_2/"&gt;testlab&lt;/a&gt; has a new arrival: a Supermicro &lt;a href="http://www.supermicro.com/products/nfo/FatTwin.cfm"&gt;FatTwin™&lt;/a&gt; F617R2-F73. As always when something lands in my lab, I will valiantly kick the crap out of it on behalf of &lt;i&gt;El Reg&lt;/i&gt;'s discerning readership. There are already a few different systems in my testlab - let's see how this thing stacks up.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/08/boston_calxeda_arm_porting_cloud/</id>
+    <updated>2013-03-08T06:32:11Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/08/boston_calxeda_arm_porting_cloud/"/>
+    <title type="html">Cheeky Boston fires up x86-to-ARM porting cloud for server apps</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Chuckles about 'ARM as a service' and AaaS all around&lt;/h4&gt; &lt;p&gt;If you are a developer and you want to get a jump on the ARM server wave and port your applications from an x86 processor or another chip architecture – hey, the latter &lt;i&gt;could&lt;/i&gt; happen – getting your hands on some of the nifty new server iron can be problematic. An ARM server is not exactly a volume product, and neither are operating systems that run on them. But cheeky UK server maker Boston Limited has a solution to the programmer problem, and it is called the ARM as a service, or AaaS, cloud.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/06/oracle_database_appliance_x3_2/</id>
+    <updated>2013-03-06T01:30:19Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/06/oracle_database_appliance_x3_2/"/>
+    <title type="html">Oracle revs Database Appliance to X3-2 – and nearly to Exadata</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;More CPU, memory, storage – and a virtualization option&lt;/h4&gt; &lt;p&gt;If you are looking for a server appliance that is pretuned to load an Oracle database on, then Ellison &amp;amp; Co have a new Database Appliance X3-2 they want to introduce you to.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/05/hp_moonshot_server_ti_keystone_arm_chip/</id>
+    <updated>2013-03-05T22:16:42Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/05/hp_moonshot_server_ti_keystone_arm_chip/"/>
+    <title type="html">TI fuels up KeyStone II ARM for HP Moonshot hyperscale servers</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;ARM/DSP hybrid presents data centers with interesting possibilities&lt;/h4&gt; &lt;p&gt;Hewlett-Packard is putting more ARM server processor options into its next-generation of "Project Moonshot" hyperscale servers - the latest one coming from Texas Instruments, which has been relatively quiet on the server front but plenty active in the ARM chip market at large.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/05/dell_fluid_cache_server_acceleration/</id>
+    <updated>2013-03-05T15:04:04Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/05/dell_fluid_cache_server_acceleration/"/>
+    <title type="html">Dell pours Fluid Cache into PowerEdge servers</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Flash the cash for faster database and HPC cache&lt;/h4&gt; &lt;p&gt;RNA Networks got its start doing memory clustering across multiple server nodes, but since buying the company nearly two years ago Dell has been tweaking the memory-caching engine to speed up disk accesses. Specifically, the Fluid Cache software for PowerEdge servers that Dell is finally delivering converts Express Cache solid state disk modules into a peppy caching front-end for internal disks and JDOD arrays attached to servers.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/04/idc_q4_2012_server_numbers/</id>
+    <updated>2013-03-04T11:43:46Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/04/idc_q4_2012_server_numbers/"/>
+    <title type="html">Pricey mainframes, hyperscale boxes boost Q4 server sales</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Unix machinery, er, not so much&lt;/h4&gt; &lt;p&gt;For the first time in five quarters, the server business saw an uptick in revenues in the final quarter of 2012, mostly thanks to burgeoning sales of dense boxes used by hyperscale web operators and a sharp appetite in IBM's mainframe shops for its new System zEnterprise EC12 boxes.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/01/ibm_tpc_c_kvm_benchmark_test/</id>
+    <updated>2013-03-01T09:13:05Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/01/ibm_tpc_c_kvm_benchmark_test/"/>
+    <title type="html">IBM runs OLTP benchmark atop KVM hypervisor</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;To heck with that TPC-VMS server virtualization spec&lt;/h4&gt; &lt;p&gt;IBM has performed benchmark tests that provide some clarity on how transaction processing will perform in real-world virtualized environments – today's real world, that is.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/01/arm_server_mwc_panel/</id>
+    <updated>2013-03-01T08:27:47Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/01/arm_server_mwc_panel/"/>
+    <title type="html">ARM servers: From li'l Acorns big data center disruptions grow</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Shuttleworth says 'vast tracts' of legacy apps 'just don't matter'&lt;/h4&gt; &lt;p&gt;The ARM collective doesn't just want to get into the data center. It wants to utterly transform it and help companies "manage down the legacy" of existing systems, as Ubuntu founder Mark Shuttleworth put it during a live chat hosted by ARM Holdings to close out the Mobile World Congress extravaganza in Barcelona on Thursday.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/03/01/one_server_takes_down/</id>
+    <updated>2013-03-01T06:02:19Z</updated>
+    <author>
+      <name>Anna Leach</name>
+      <uri>http://search.theregister.co.uk/?author=Anna%20Leach</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/03/01/one_server_takes_down/"/>
+    <title type="html">One titsup server kills Brit-hosted Donhost websites for THREE DAYS</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Where was the back up?&lt;/h4&gt; &lt;p&gt;A fault in just one server at Brit web hosting biz Donhost took out thousands of websites and emails for more than three days.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/28/wet_servers_cut_cooling_costs_research_leeds_university/</id>
+    <updated>2013-02-28T07:02:14Z</updated>
+    <author>
+      <name>Anna Leach</name>
+      <uri>http://search.theregister.co.uk/?author=Anna%20Leach</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/28/wet_servers_cut_cooling_costs_research_leeds_university/"/>
+    <title type="html">First, servers were DEEP-FRIED... now, boffins bring you WET ones</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Super-cooling liquid shaves 97% off data centre cooling costs&lt;/h4&gt; &lt;p&gt;We've seen quite a few innovative engineers who have tried to bring down data centre cooling costs, including this &lt;a href="http://www.theregister.co.uk/2012/05/25/immersive_cooling/"&gt;mad crowd&lt;/a&gt; who dunked theirs in a deep fryer... Now boffins at Leeds University and British start-up Icetope have invented a super cooling liquid that could create a new generation of "wet servers". They say it could cut the cooling costs of the world's server farms by 97 per cent.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/27/gartner_server_q4_2012_numbers/</id>
+    <updated>2013-02-27T20:26:43Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/27/gartner_server_q4_2012_numbers/"/>
+    <title type="html">The server racket recovers from the Great Recession</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Hyperscale data center vigor makes up for enterprise skittishness&lt;/h4&gt; &lt;p&gt;Sales and shipments of servers are both approaching levels seen in the run-up ahead of the Great Recession in late 2007.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/25/ibm_no_power_7_plus_bladecenter/</id>
+    <updated>2013-02-25T13:37:05Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/25/ibm_no_power_7_plus_bladecenter/"/>
+    <title type="html">IBM skips BladeCenter chassis with Power7+ rollout</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;End of the line for Power blades – PureFlex or bust&lt;/h4&gt; &lt;p&gt;Even before IBM &lt;a target="new" href="http://www.theregister.co.uk/2013/02/05/ibm_power7_plus_entry_midrange_servers/"&gt;launched its Power7+ entry and midrange servers&lt;/a&gt; in early February, &lt;i&gt;El Reg&lt;/i&gt; told you that it was suspicious, although not yet alarming, that no rumors were going around that Big Blue was working on Power7+ kickers to its PS7XX series of blade servers for its BladeCenter enclosures.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/25/unisys_irs_mainframe_support_deal/</id>
+    <updated>2013-02-25T13:05:32Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/25/unisys_irs_mainframe_support_deal/"/>
+    <title type="html">Unisys re-ups $650m deal to look after US taxman's big iron</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;IRS slurps over $2 TREEELLION a year of taxpayers' cash&lt;/h4&gt; &lt;p&gt;National tax collection agencies were among the first organizations in the world to use IBM, Sperry, Burroughs, and other mainframes, and despite all the grumbling and grousing over the high costs of these venerable box, they have invested a fortune in COBOL applications and it is not so easy to ditch the mainframe as it might seem. And it looks like the mainframe will be sticking around the US Internal Revenue Service for quite a bit longer, if a new support contract won by Unisys, worth a potential $650m over the next decade, is any indication.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/21/vce_vblock_100_200_systems/</id>
+    <updated>2013-02-21T11:04:17Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/21/vce_vblock_100_200_systems/"/>
+    <title type="html">VCE collective takes integrated systems battle down to the midrange</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Cisco-EMC-sometimes-VMware converged boxes take on the tier ones&lt;/h4&gt; &lt;p&gt;It is safe to say that the effort by Cisco Systems to break into the server racket with its Unified Computing System blade and rack servers nearly four years ago has succeeded much more than its rivals in the business had expected.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/20/baidu_marvell_arm_servers/</id>
+    <updated>2013-02-20T21:05:35Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/20/baidu_marvell_arm_servers/"/>
+    <title type="html">Chinese search engine giant Baidu forges ARM servers</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Marvell notches another design win after Dell and Codethink boxes&lt;/h4&gt; &lt;p&gt;Chip maker Marvell has notched up its third public design win for an ARM server, this one at Baidu, one of the two big search engine giants in China.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/19/hp_bladesystem_chassis_switch_workstation/</id>
+    <updated>2013-02-19T16:44:07Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/19/hp_bladesystem_chassis_switch_workstation/"/>
+    <title type="html">HP cranks up bandwidth on BladeSystem sheaths, adds pretty platinum stripe</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Three-rank memory and 40GE downlinks for blades to match&lt;/h4&gt; &lt;p&gt;When Hewlett-Packard launched the BladeSystem blade enclosures nearly seven years ago alongside its "blade everything" strategy, no one but Google was doing custom, high-density machines and it looked like blade servers would be the corporate platform of choice. And so HP built the c7000 chassis, and its smaller "Shorty" c3000 sibling that followed it to market, for the long haul. But the advent of faster server and storage networking is putting a strain on the backplanes in the existing BladeSystem enclosures, and so HP's engineers went back to the drawing board and rejiggered that passive backplane to offer more bandwidth, thus positioning the c3000 and c7000 Platinum editions for another couple of years at the very least.…&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <id>tag:theregister.co.uk,2005:story/2013/02/19/tilera_tile_gx72_processor/</id>
+    <updated>2013-02-19T14:03:43Z</updated>
+    <author>
+      <name>Timothy Prickett Morgan</name>
+      <uri>http://search.theregister.co.uk/?author=Timothy%20Prickett%20Morgan</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://go.theregister.com/feed/www.theregister.co.uk/2013/02/19/tilera_tile_gx72_processor/"/>
+    <title type="html">Tilera etches '*ss-kicking' 72-core system-on-chip for network gear</title>
+    <summary type="html" xml:base="http://www.theregister.co.uk/">&lt;h4&gt;Current Tile-Gx Plan B fits market needs better than Plan A&lt;/h4&gt; &lt;p&gt;It is not just difficult to design and manufacture a chip for workloads that will be run many years in the future, it is damned near impossible. This is because so many shifting alternative technologies will materialize between the time you make your plan and when it is executed. Any chipmaker has to be both flexible and patient - an equally difficult feat for both upstart processor vendors and incumbents. Tilera, still very much in startup mode nine years after its founding, is getting traction with its many-cored Tile-Gx system-on-chips and is rolling out a new model with 72 cores on a single die.…&lt;/p&gt;</summary>
+  </entry>
+</feed>
