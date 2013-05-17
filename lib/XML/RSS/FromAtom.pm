@@ -39,7 +39,7 @@ use XML::Atom::Syndication::Feed;
 use XML::RSS;
 
 # Version set by dist.ini; do not change here.
-our $VERSION = '0.02_01'; # VERSION
+our $VERSION = '0.02_02'; # VERSION
 
 has 'syndicator' => ( 
     is => 'ro',
@@ -133,7 +133,7 @@ XML::RSS::FromAtom - create a XML::RSS object out of an Atom feed
 
 =head1 VERSION
 
-version 0.02_01
+version 0.02_02
 
 =head1 SYNOPSIS
 
