@@ -9,7 +9,7 @@ use XML::Atom::Syndication::Feed;
 
 my $feed = 'headlines.atom';
 
-my $content = read_file(File::Spec->catfile('t', $feed));
+my $content = read_file(File::Spec->catfile('t', $feed),binmode => ':utf8');
 
 my $fd;
 lives_ok {
