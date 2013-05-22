@@ -39,7 +39,7 @@ my %WriteMakefileArgs = (
     "XML::RSS" => 0,
     "common::sense" => 0
   },
-  "VERSION" => "0.02_02",
+  "VERSION" => "0.02_03",
   "test" => {
     "TESTS" => "t/*.t t/lib/xml/rss/*.t"
   }

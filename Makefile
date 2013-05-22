@@ -20,7 +20,7 @@
 #     LICENSE => q[perl]
 #     NAME => q[XML::RSS::FromAtom]
 #     PREREQ_PM => { DateTime=>q[0], DateTime::Format::ISO8601=>q[0], File::Spec=>q[0], XML::RSS=>q[0], File::Find=>q[0], Test::Most=>q[0], File::Slurp=>q[0], XML::Atom::Syndication::Feed=>q[0], Try::Tiny=>q[0], warnings=>q[0], Moo=>q[0], Data::Dumper=>q[0], DateTime::Format::Mail=>q[0], Test::More=>q[0], strict=>q[0], File::Temp=>q[0], common::sense=>q[0] }
-#     VERSION => q[0.02_02]
+#     VERSION => q[0.02_03]
 #     test => { TESTS=>q[t/*.t t/lib/xml/rss/*.t] }
 
 # --- MakeMaker post_initialize section:
@@ -60,11 +60,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = XML::RSS::FromAtom
 NAME_SYM = XML_RSS_FromAtom
-VERSION = 0.02_02
+VERSION = 0.02_03
 VERSION_MACRO = VERSION
-VERSION_SYM = 0_02_02
+VERSION_SYM = 0_02_03
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 0.02_02
+XS_VERSION = 0.02_03
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -258,7 +258,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = XML-RSS-FromAtom
-DISTVNAME = XML-RSS-FromAtom-0.02_02
+DISTVNAME = XML-RSS-FromAtom-0.02_03
 
 
 # --- MakeMaker macro section:
@@ -514,7 +514,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) '  XML::Atom::Syndication::Feed: 0' >> META_new.yml
 	$(NOECHO) $(ECHO) '  XML::RSS: 0' >> META_new.yml
 	$(NOECHO) $(ECHO) '  common::sense: 0' >> META_new.yml
-	$(NOECHO) $(ECHO) 'version: 0.02_02' >> META_new.yml
+	$(NOECHO) $(ECHO) 'version: 0.02_03' >> META_new.yml
 	-$(NOECHO) $(MV) META_new.yml $(DISTVNAME)/META.yml
 	$(NOECHO) $(ECHO) Generating META.json
 	$(NOECHO) $(ECHO) '{' > META_new.json
@@ -571,7 +571,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) '      }' >> META_new.json
 	$(NOECHO) $(ECHO) '   },' >> META_new.json
 	$(NOECHO) $(ECHO) '   "release_status" : "testing",' >> META_new.json
-	$(NOECHO) $(ECHO) '   "version" : "0.02_02"' >> META_new.json
+	$(NOECHO) $(ECHO) '   "version" : "0.02_03"' >> META_new.json
 	$(NOECHO) $(ECHO) '}' >> META_new.json
 	-$(NOECHO) $(MV) META_new.json $(DISTVNAME)/META.json
 

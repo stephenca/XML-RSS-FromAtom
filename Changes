@@ -1,5 +1,9 @@
 Revision history for XML-RSS-FromAtom
 
+0.02_03   Wed May 22 14:47:14 2013 +0100
+  - Tests: revert binmode change from 0.02_02; results in content being
+    processed twice (and therefore many test fails). (Stephen Cardie)
+
 0.02_02   Fri May 17 12:25:15 2013 +0100
   - Tests: set binmode to utf8 when reading from saved headlines file.  Should
     avoid conversion issues when comparing with expected string. (Stephen

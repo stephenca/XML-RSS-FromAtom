@@ -32,7 +32,7 @@ no_index:
 provides:
   XML::RSS::FromAtom:
     file: lib/XML/RSS/FromAtom.pm
-    version: 0.02_02
+    version: 0.02_03
 requires:
   DateTime: 0
   DateTime::Format::ISO8601: 0
@@ -45,4 +45,4 @@ requires:
   perl: 5.006
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=XML-RSS-FromAtom
-version: 0.02_02
+version: 0.02_03

@@ -59,7 +59,7 @@
    "provides" : {
       "XML::RSS::FromAtom" : {
          "file" : "lib/XML/RSS/FromAtom.pm",
-         "version" : "0.02_02"
+         "version" : "0.02_03"
       }
    },
    "release_status" : "testing",
@@ -68,5 +68,5 @@
          "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=XML-RSS-FromAtom"
       }
    },
-   "version" : "0.02_02"
+   "version" : "0.02_03"
 }
