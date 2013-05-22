@@ -4,7 +4,7 @@ XML::RSS::FromAtom - create a XML::RSS object out of an Atom feed
 
 # VERSION
 
-version 0.02\_02
+version 0.02\_03
 
 # SYNOPSIS
 
